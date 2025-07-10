@@ -265,3 +265,64 @@
 }
 /* overflow layout css end */
 
+/* contact layout css start */
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    /* background-color: #f3f3ff; */
+    border-radius: 12px;
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); */
+}
+
+.contact-left {
+    flex: 1;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #4a4aff;
+    padding-right: 40px;
+}
+
+.contact-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-right label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.contact-right input,
+.contact-right textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    resize: vertical;
+}
+
+.contact-right button {
+    padding: 12px;
+    background-color: #4a4aff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-right button:hover {
+    background-color: #3a3ae6;
+}
+
+/* contact layout css end */
