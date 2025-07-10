@@ -17,7 +17,7 @@
     position: relative;
 }
 
-/* banner layout css  */
+/* banner layout css start */
 .logo {
     position: absolute; 
     top: 20px;
@@ -44,7 +44,7 @@
 .main-content {
     width: 905px;
     text-align: center;
-    margin: 200px auto 200px auto;
+    margin: 250px auto 200px auto;
 }
 
 .main-content h1 {
@@ -69,7 +69,7 @@
 }
 /* banner layout css end */
 
-/* action layout css */
+/* action layout css start */
 .action-wrapper {
     margin: 0 auto;
     width: 1140px;
@@ -88,7 +88,7 @@
 .action-left h1 {
     font-size: 2.2rem;
     margin-bottom: 20px;
-    color: #00bfff;
+    color: black;
 }
 
 .action-left p {
@@ -120,3 +120,108 @@
 }
 /* action layout css end */
 
+/* productive_user layout css start */
+.productive-wrapper {
+    background-color: #f2efff;
+    padding: 60px 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #5b3ec1;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    flex: 1 1 200px;
+}
+
+.stat-item .number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5b3ec1;
+}
+
+.stat-item .label {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 8px;
+}
+/* productive_user layout css end */
+
+/* review layout css start */
+.reviews-section {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    padding: 60px 0;
+}
+
+.reviews-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #5b3ec1;
+}
+
+.review-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    flex: 1;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.review-card .stars {
+    color: #f5c518;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.review-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #5b3ec1;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.reviewer span .date {
+    font-size: 14px;
+    color: black;
+}
+/* review layout css end */
